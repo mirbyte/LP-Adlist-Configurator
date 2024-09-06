@@ -2,8 +2,10 @@
 Simple LuckyPatcher AdsBlockList_user_edit.txt configurator that uses Adguard filters. Just doubleclick on win.
 
 
-Facebook urls from https://github.com/JamieFarrelly/Popular-Site-Subdomains/blob/master/Facebook.com.txt
-
+Facebook url sources
+- https://github.com/JamieFarrelly/Popular-Site-Subdomains/blob/master/Facebook.com.txt
+- https://gist.github.com/allenaven/b2550f88b36836a51a37eea38242abd5
+- https://www.netify.ai/resources/applications/facebook
 
 
 
