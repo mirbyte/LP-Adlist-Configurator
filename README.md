@@ -6,7 +6,7 @@ LuckyPatcher AdsBlockList_user_edit.txt configurator that uses Adguard filters.
 
 
 
-cname trackers???
+cname trackers??? idk what im doing
 - https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/webair_justdomains.txt
 - https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adocean_justdomains.txt
 - https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adocean_rpz.txt
