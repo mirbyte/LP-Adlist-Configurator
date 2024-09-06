@@ -13,6 +13,7 @@ urls = [
     "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers_firstparty.txt"
 ]
 
+
 file_name = "AdsBlockList_user_edit.txt"
 script_directory = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(script_directory, file_name)
@@ -47,6 +48,7 @@ def fetch_and_clean_url(url):
         print(f"An error occurred while processing {url}: {e}")
         return set()
 
+
 combined_list = set()
 for url in urls:
     combined_list.update(fetch_and_clean_url(url))
@@ -80,15 +82,16 @@ default_http = [
     'appodeal.com', 'amazonaws.com', '.baidu.com', '.tapas.net', '.duapps.com', 'smaato.', 'ad-mail.ru',
     'yandexadexchange.', 'yandex.com', 'tapjoyads.com', 'tapjoy.com'
 ]
-
 default_strings = [
     'com.google.android.gms.ads.identifier.service.START', 'ads.mopub.com', 'doubleclick.net',
     'googleadservices.com', 'googlesyndication.com'
 ]
 
+
 include_default_http = input("Do you want to include LuckyPatcher defaults? (y/n): ").strip().lower()
 add_facebook = input("Do you want to block facebook.com? (y/n): ").strip().lower()
 duplicate_http_to_all_strings = input("Do you want to duplicate everything from [http] into [ALL_STRINGS])? (y/n): ").strip().lower()
+
 
 try:
     with open(file_path, 'w') as file:
@@ -123,10 +126,10 @@ try:
     print("")
     print(f"File successfully saved at: {file_path}")
     
-
 except Exception as e:
     print("")
     print(f"error: {e}")
+
 
 print("")
 print("")
