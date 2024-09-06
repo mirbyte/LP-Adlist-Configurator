@@ -21,3 +21,9 @@ cname trackers???
 - https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_microsites_justdomains.txt
 - https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_disguised_trackers_justdomains.txt
 - https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_original_trackers_justdomains.txt
+
+
+
+
+dns filter?
+- https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
