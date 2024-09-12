@@ -1,5 +1,5 @@
 # LP-Adlist-Configurator
-Simple LuckyPatcher AdsBlockList_user_edit.txt configurator that utilizes Adguard filters. Just doubleclick on win.
+Simple LuckyPatcher AdsBlockList_user_edit.txt configurator that utilizes Adguard filters. Just doubleclick on Windows.
 
 
 
