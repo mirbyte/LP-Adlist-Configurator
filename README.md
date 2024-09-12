@@ -3,8 +3,8 @@ Simple LuckyPatcher AdsBlockList_user_edit.txt configurator that utilizes Adguar
 
 
 
-__ToDo__
-- http listed in blocklist?? __FIXED__
+**ToDo**
+- http listed in blocklist?? *FIXED*
 
 
 
