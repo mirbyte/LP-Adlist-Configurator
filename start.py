@@ -93,6 +93,14 @@ add_facebook = input("Do you want to block facebook.com? (y/n): ").strip().lower
 duplicate_http_to_all_strings = input("Do you want to duplicate everything from [http] into [ALL_STRINGS])? (y/n): ").strip().lower()
 
 
+def http_fix(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+    
+    if 'http' in content.lower():
+        content = content.replace('http\n', '').replace('https\n', '') #removes http and https rows from the final file
+
+
 try:
     with open(file_path, 'w') as file:
         file.write("[http]\n")
@@ -125,10 +133,12 @@ try:
     
     print("")
     print(f"File successfully saved at: {file_path}")
-    
+    http_fix(file_path)
+
 except Exception as e:
     print("")
     print(f"error: {e}")
+
 
 
 print("")
