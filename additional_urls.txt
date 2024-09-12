@@ -1,0 +1,8 @@
+firebaselogging.googleapis.com
+connect.facebook.net
+crashlyticsreports-pa.googleapis.com
+web.facebook.com
+z-p42-chat-e2ee-ig.facebook.com
+fundingchoicesmessages.google.com
+firebase
+crashlytics
