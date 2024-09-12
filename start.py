@@ -64,9 +64,6 @@ def read_list_from_file(filename):
         return set()
 
 
-facebook_urls_file = 'facebook_urls.txt'
-fuckfacebook = read_list_from_file(facebook_urls_file)
-
 
 default_http = [
     '/ads', '.ads.', '-ads.', '.ad.', '/ad.', 'advert', '.gstatic.com', '.admob.com', '.analytics.localytics.com',
@@ -89,8 +86,13 @@ default_strings = [
 
 
 include_default_http = input("Do you want to include LuckyPatcher defaults? (y/n): ").strip().lower()
+add_additionals = input("Do you want to include additional_urls.txt file contents? (y/n): ").strip().lower()
 add_facebook = input("Do you want to block facebook.com? (y/n): ").strip().lower()
-duplicate_http_to_all_strings = input("Do you want to duplicate everything from [http] into [ALL_STRINGS])? (y/n): ").strip().lower()
+duplicate_http_to_strings = input("Do you want to duplicate everything from [http] into [ALL_STRINGS])? (y/n): ").strip().lower()
+
+
+fuckfacebook = read_list_from_file('facebook_urls.txt')
+additionals = read_list_from_file('additional_urls.txt')
 
 
 def http_fix(file_path):
@@ -113,6 +115,10 @@ try:
             for line in fuckfacebook:
                 file.write(line + '\n')
         
+        if add_additionals == 'y':
+            for line in additionals:
+                file.write(line + '\n')
+        
         for line in sorted(combined_list):
             file.write(line + '\n')
         
@@ -127,7 +133,7 @@ try:
             for line in fuckfacebook:
                 file.write(line + '\n')
 
-        if duplicate_http_to_all_strings == 'y':
+        if duplicate_http_to_strings == 'y':
             for line in sorted(combined_list):
                 file.write(line + '\n')
     
@@ -141,7 +147,6 @@ except Exception as e:
 
 
 
-print("")
 print("")
 print("")
 input("Press Enter to exit...")
