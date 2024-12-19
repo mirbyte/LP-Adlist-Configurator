@@ -3,6 +3,7 @@ postmaster.facebook.com
 es-la.facebook.com
 internet.org
 es-es.facebook.com
+www.facebook.com
 wwww.facebook.com
 fbsbx.com
 ko-kr.connect.facebook.com
