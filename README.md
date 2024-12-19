@@ -1,5 +1,5 @@
 # LP-Adlist-Configurator
-**LuckyPatcher** AdsBlockList_user_edit.txt configurator that utilizes Adguard filters. Just doubleclick on Windows.
+**LuckyPatcher** AdsBlockList_user_edit.txt configurator that utilizes Adguard filters. Just doubleclick start.py on Windows.
 
 
 
