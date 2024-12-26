@@ -4,7 +4,7 @@
 
 
 **ToDo**
-- http listed in blocklist?? **
+- WARNING 'http' is listed alone in blocklist after running the configurator, please remove it manually **
 - existing file integration prompt 
 
 
