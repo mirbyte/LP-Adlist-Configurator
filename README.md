@@ -1,9 +1,9 @@
 # LP-Adlist-Configurator
-**LuckyPatcher** AdsBlockList_user_edit.txt configurator that utilizes Adguard filters. Just doubleclick start.py on Windows.
+**LuckyPatcher** AdsBlockList_user_edit.txt configurator that utilizes Adguard filters. Just doubleclick start.py on Windows. I have no proper understanding of LP adlist formatting so use with caution.
 
 
 
-### ToDo
+### Todo
 - **WARNING** 'http' is listed alone in blocklist after running the configurator, please remove it manually **
 - existing file integration prompt 
 
